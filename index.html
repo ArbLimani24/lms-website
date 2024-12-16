@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Course Selling Page</title>
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar">
+      <a href="#" class="navbar__logo">Logo.</a>
+      <div class="navbar__notch">
+          <p>Home</p>
+          <a href="#">New Courses</a>
+      </div>
+      <div class="navbar__menu">
+          <a href="#" class="navbar__menu-link" onclick="home();">Home</a>
+          <a href="#" class="navbar__menu-link" onclick="Courses();">Courses</a>
+          <a href="#" class="navbar__menu-link" onclick="Mentorship();">Mentorship</a>
+          <a href="#" class="navbar__menu-link" onclick="About();">About</a>
+      </div>
+    </nav>
+    <!--end of navbar-->
+
+    <section class="hero">
+      <img src="assets/Mastering.jpg">
+      <div class="hero-course">
+          <h1 class="hero-course__title">Mastering Web Development</h1>
+          <p class="hero-course__author">by - Arb Limani</p>
+          <div class="hero-course__rating">
+            <div class="hero-course__stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+                <i class='bx bx-star'></i>
+            </div>
+            <div class="hero-course__reviews">(2450 reviews)</div>
+      </div>
+
+      <div class="hero-course__options">
+        <div class="hero-course__mode">
+          <h3 class="hero-label__mode">Select Learning Mode</h3>
+          <button class="hero-course__mode-option">Self-Study</button>
+          <button class="hero-course__mode-option selected">Live Led</button>
+          <button class="hero-course__mode-option">Mentorship</button>
+          <button class="hero-course__mode-option">Bootcamp</button>
+        </div>
+      </div>
+
+      <div class="hero-course__options2">
+        <div class="hero-course__mode">
+          <h3 class="hero-label__mode">Select Duration</h3>
+          <button class="hero-course__mode-option">1 Month</button>
+          <button class="hero-course__mode-option selected">3 Month</button>
+          <button class="hero-course__mode-option">4 Month</button>
+          <button class="hero-course__mode-option">1 Year</button>
+        </div>
+      </div>
+
+      <div class="hero-course__pricing">
+        <h3 class="hero-course__label">Price</h3>
+        <span class="hero-course__price">$120.00</span>
+        <span class="hero-course__price-original"><del>$150.00</del></span>
+      </div>
+
+      <div class="hero-course__actions">
+        <button class="hero-course__button-hero-course__button--enroll">Get Started</button>
+        <button class="hero-course__button-hero-course__button--more">More Details</button>
+      </div>
+    </section>
+
+    <h2 class="separator">Specifications</h2>
+
+    <div class="program">
+      <div class="program-info">
+        <h2 class="program__title">Unlock Your Full Potential</h2>
+        <p class="program__description">
+          Our tailored web development courses are designed to equip you with essential skills and industry <br>
+          insights. With flexible learning modes and durations, you’ll find a path that perfectly fits your needs, <br>
+          from intensive bootcamps to in-depth mentorships.
+        </p>
+      </div>
+    </div>
+    <div class="program__details">
+      <div class="program__details-duration">
+          <h3 class="program__label">Course Durations</h3>
+          <ul class="program__duration-list">
+              <li class="program__duration-item">1 Month: Fast-Track Intensive</li>
+              <li class="program__duration-item">3 Months: Standard Learning Path</li>
+              <li class="program__duration-item">6 Months: In-Depth Exploration</li>
+              <li class="program__duration-item">1 Year: Comprehensive Mastery</li>
+          </ul>
+      </div>
+      <div class="program__details-format">
+        <h3 class="program__label">Course Durations</h3>
+        <ul class="program__format-list">
+            <li class="program__format-item">Self-Paced: Study at your own rhythm</li>
+            <li class="program__format-item">Instructor-Led: Interactive classes with live feedback</li>
+            <li class="program__format-item">Mentorship: One-on-one guidance</li>
+            <li class="program__format-item">Bootcamp: Immersive, hands-on experience</li>
+        </ul>
+    </div>
+    <img src="assets/specifications.jpg" class="program__image">
+
+    <h2 class="separator">Courses You Might Enjoy</h2>
+
+    <div class="course">
+      <div class="course-list">
+        <div class="lists-courses">
+          <div class="list-iteam">
+            <img src="assets/javascript.jpg">
+            <div class="course-list__item-details">
+              <h3 class="course-list__item-title">JavaScript Course</h3>
+              <p class="course-list__item-price"><span>from</span> $52</p>
+
+              <p class="course-list__item-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Impedit sint ad vitae fugiat ducimus in <br>
+                tempore doloribus optio.
+              </p>
+
+              <button class="course-list__item-button">Quick Enroll</button>
+            </div>
+          </div>
+
+          <div class="list-iteam" style="margin-top: -543px; margin-left: 340px;">
+            <img src="assets/tailwind.jpg" style="width: 320px;">
+            <div class="course-list__item-details">
+              <h3 class="course-list__item-title">Tailwind Course</h3>
+              <p class="course-list__item-price"><span>from</span> $30</p>
+
+              <p class="course-list__item-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Impedit sint ad vitae fugiat ducimus in <br>
+                tempore doloribus optio.
+              </p>
+
+              <button class="course-list__item-button">Quick Enroll</button>
+            </div>
+          </div>
+
+          <div class="list-iteam" style="margin-top: -543px; margin-left: 690px;">
+            <img src="assets/nextjs.jpg" style="width: 320px;">
+            <div class="course-list__item-details">
+              <h3 class="course-list__item-title">Next Js Course</h3>
+              <p class="course-list__item-price"><span>from</span> $37</p>
+
+              <p class="course-list__item-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Impedit sint ad vitae fugiat ducimus in <br>
+                tempore doloribus optio.
+              </p>
+
+              <button class="course-list__item-button">Quick Enroll</button>
+            </div>
+          </div>
+
+          <div class="list-iteam" style="margin-top: -543px; margin-left: 1030px;">
+            <img src="assets/reactjs.jpg" style="width: 320px;">
+            <div class="course-list__item-details">
+              <h3 class="course-list__item-title">React Js Course</h3>
+              <p class="course-list__item-price"><span>from</span> $43</p>
+
+              <p class="course-list__item-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Impedit sint ad vitae fugiat ducimus in <br>
+                tempore doloribus optio.
+              </p>
+
+              <button class="course-list__item-button">Quick Enroll</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img src="assets/career.jpg" class="carer__image">
+
+    <div class="career">
+      <div class="career-info">
+        <h2 class="career__title">Achieve Your Career Goals with Expert Support</h2>
+        <p class="career__description">
+          Join our mentorship program and benefit from structured guidance tailored to help you succeed. From <br>
+          resources to networking opportunities, we take care of everything so you can focus on mastering your <br>
+          skills.
+        </p>
+
+        <div class="career-infos">
+          <h3 class="career__benefit-title">Personalized Learning</h3>
+          <p class="career__benefit-description">
+              Customized curriculum to meet your individual goals.
+          </p>
+        </div>
+
+        <div class="career-infos" style="margin-top: 30px;">
+          <h3 class="career__benefit-title">Global Networking</h3>
+          <p class="career__benefit-description">
+            Connect with a community of learners and industry professionals.
+          </p>
+        </div>
+
+        <div class="career-infos" style="margin-top: 30px;">
+          <h3 class="career__benefit-title">Zero Setup Costs</h3>
+          <p class="career__benefit-description">
+            Begin without any upfront expenses; all resources are included.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="about-image">
+        <img src="assets/about.png">
+        <div class="about-info">
+          <div class="about__details-title">About the Instructor</div>
+          <div class="about__details-description">
+              Alex Johnson brings a wealth of experience in web development, having guided countless students to <br>
+              success in their tech careers. With a background in both teaching and industry expertise, Alex's passion <br>
+              is to make advanced concepts approachable for everyone.
+          </div>
+
+          <button class="about-button">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!--gradient-->
+    <div class="gradient">
+      <div class="gradient-form">
+          <h2>Stay Informed With Our Newsletter</h2>
+          <p class="subscription__description">
+            Sign up to receive insights and updates from our students and experts.
+            Stay connected and discover new ways to enhance your learning experience.
+          </p>
+          <form class="subscription__form">
+            <input type="email" class="subscription__input" placeholder="Enter your email">
+            <button type="submit" class="subscription__button">Subscribe</button>
+          </form>
+      </div>
+
+      <footer class="footer">
+        <h2>Logo.</h2>
+
+        <div class="footer__column">
+          <a href="#" class="footer__link1">Courses</a> <br>
+          <a href="#" class="footer__link2">Mentors</a> <br>
+          <a href="#" class="footer__link3">FAQs</a> <br>
+          <a href="#" class="footer__link4">Contact Us</a> <br>
+        </div>
+
+        <div class="footer__column" style="margin-top: -120px; margin-left: 850px;">
+          <a href="#" class="footer__link1">Blog</a> <br>
+          <a href="#" class="footer__link2">Careers</a> <br>
+          <a href="#" class="footer__link3">Partnerships</a> <br>
+          <a href="#" class="footer__link4">Privacy Policy</a> <br>
+        </div>
+
+        <div class="footer__column" style="margin-top: -120px; margin-left: 1290px;">
+          <a href="#" class="footer__link1">Youtube</a> <br>
+          <a href="#" class="footer__link2">FaceBook</a> <br>
+          <a href="#" class="footer__link3">Instagram</a> <br>
+          <a href="#" class="footer__link4">LinkedIn</a> <br>
+        </div>
+
+        <p class="footer__copyright">All rights reserved 2024 © Arb Coding</p>
+      </footer>
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
